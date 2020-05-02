@@ -37,6 +37,16 @@ h2 {
     height: 330px;
 }
 
+.info-block:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease-in;
+}
+
+.info-block:hover .icon {
+    background-color: rgb(103, 230, 224);
+    border-color: rgb(103, 230, 224);
+}
+
 .info-block .icon {
     width: 20%;
     height: 70px;
@@ -76,6 +86,11 @@ h2 {
     margin: auto;
 }
 
+.info-button:hover {
+    background-color: rgb(103, 230, 224);
+    color: white;
+}
+
 .info-button {
     border-width: 0px;
     margin-top: 100px;
@@ -89,6 +104,53 @@ h2 {
     width: 1170px;
     margin: auto;
     margin-top: 50px;
+}
+
+.team-photos {
+    width: 80%;
+    margin: auto;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    text-align: center;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+.person-name {
+    margin-top: 30px;
+}
+
+.person-info {
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
+    color: rgb(150, 149, 149);
+}
+
+.links {
+    margin: 20px auto 20px auto;
+    border-top: 1px solid rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+}
+
+.linkImage {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.person:hover .links :nth-child(2) {
+    background-color: rgb(103, 230, 224);
 }
 
 .footer {
@@ -164,3 +226,6 @@ h2 {
 #bottomLinks a {
     padding-left: 40px;
 }
+
+
+
