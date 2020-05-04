@@ -1,9 +1,7 @@
 .welcome-block {
 	background-image: url("../assets/images/header/Background.png");
-	background-size: contain;
+	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 100%;
-	height: 600px;
 }
 
 .header,
@@ -31,28 +29,28 @@
 .main-section .main-section__subtitle,
 .main-section .main-section__buttons,
 .main-section .main-section__text {
-	padding-left: 50%;
+	padding-left: 40vw;
 	font-family: 'OpenSans';
 	text-align: left;
 }
 
 .main-section {
-	padding: 130px 0;
+	padding: 7vw;
 }
 
 .main-section .main-section__title {
-	font-size: 50px;
+    font-size: 4.5vw;
 	margin-bottom: 5px;
 }
 
 .main-section .main-section__subtitle {
-	font-size: 24px;
+	font-size: 2vw;
 	margin-bottom: 25px;
 }
 
 .main-section__text {
-	width: 45%;
-	font-size: 15px;
+	width: 45vw;
+	font-size: 1.2vw;
 	margin-bottom: 10px;
 }
 
@@ -77,6 +75,7 @@
 	width: 128px;
 	height: 46px;
 	z-index: 252;
+    margin-bottom: 100px;
 }
 
 
