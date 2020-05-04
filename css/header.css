@@ -78,3 +78,229 @@
 	height: 46px;
 	z-index: 252;
 }
+
+
+.main-title {
+    text-align: center;
+}
+
+.main-title {
+    padding-top: 70px;
+    font-family: serif;
+}
+
+.subtitle {
+    margin: auto;
+    width: 400px;
+}
+
+.subtitle {
+    color: rgb(150, 149, 149);
+    font-family: sans-serif;
+    font-weight: 160;
+    font-size: 16px;
+    text-align: center !important;
+}
+
+.info-blocks {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.info-block {
+    margin-top: 120px;
+    margin-left: 74px;
+    width: 270px;
+    height: 330px;
+}
+
+.info-block:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease-in;
+}
+
+.info-block:hover .icon {
+    background-color: rgb(103, 230, 224);
+    border-color: rgb(103, 230, 224);
+}
+
+.info-block .icon {
+    width: 20%;
+    height: 70px;
+    margin: auto;
+    margin-top: 50px;
+    border-width: 20px;
+    border: 1px solid rgb(150, 149, 149);
+    border-radius: 30px
+}
+
+.info-title {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.info-img {
+    margin-left: 16px;
+    margin-top: 25px;
+}
+
+.info-block .subtitle {
+    width: 80%;
+    color: rgb(150, 149, 149);
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+.info-buttons {
+    width: 328px;
+    margin: auto;
+}
+
+.info-button:hover {
+    background-color: rgb(103, 230, 224);
+    color: white;
+}
+
+.info-button {
+    border-width: 0px;
+    margin-top: 100px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(230, 229, 229);
+    font-family: sans-serif;
+    
+}
+
+.info-images {
+    width: 1170px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.team-photos {
+    width: 80%;
+    margin: auto;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    text-align: center;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+.person-name {
+    margin-top: 30px;
+}
+
+.person-info {
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
+    color: rgb(150, 149, 149);
+}
+
+.links {
+    margin: 20px auto 20px auto;
+    border-top: 1px solid rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+}
+
+.linkImage {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.person:hover .links :nth-child(2) {
+    background-color: rgb(103, 230, 224);
+}
+
+.footer {
+    background-color: rgb(33, 37, 49);
+    width: 100%;
+    height: 777px;
+}
+
+#footerTitle {
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+.footer form {
+    width: 450px;
+    margin: auto;
+    height: 50px;
+    margin-top: 60px;
+} 
+
+#footerInput {
+    margin: auto;
+    padding-left: 30px;
+    background-color: rgb(81, 85, 93);
+    border-width: 0px;
+    width: 70%;
+    height: 100%;
+}
+
+#footerInput::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+#submitButton {
+    width: 20%;
+    margin-left: 4px;
+    border-width: 0px;
+    background-color: rgb(103, 230, 224);
+    color: white;
+    height: 100%;
+}
+
+#bottomArea {
+    width: 30%;
+    margin: auto;
+    margin-top: 140px;
+    text-align: center;
+    border: 0px;
+}
+
+#bottomAreaLogoImage {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#bottomText {
+    width: 100%;
+    color: white;
+}
+
+#blueBottomText {
+    display: contents;
+    color: rgb(56, 198, 217);
+}
+
+#bottomLinks {
+    margin-top: 50px;
+    padding: 0 20% 0 20%;
+}
+
+#bottomLinks a {
+    padding-left: 40px;
+}
