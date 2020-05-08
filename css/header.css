@@ -122,6 +122,11 @@
 .info-block:hover .icon {
   background-color: #67e6e0;
   border-color: #67e6e0;
+  transition: 0.4s ease-in;
+}
+
+.get-it-now-button {
+    cursor: pointer;
 }
 
 .info-block .icon {
@@ -164,11 +169,13 @@
 }
 
 .info-button:hover {
+  transition: 0.3s ease-in;    
   background-color: #67e6e0;
   color: white;
 }
 
 .info-button {
+  cursor: pointer;
   border-width: 0px;
   margin-top: 100px;
   padding: 10px 15px 10px 15px;
@@ -225,8 +232,9 @@
   margin-left: 10px;
 }
 
-.person:hover .links :nth-child(2) {
+.linkImage:hover {
   background-color: #67e6e0;
+  transition: 0.4s ease-in;
 }
 
 .footer {
@@ -242,6 +250,10 @@
   text-align: center;
 }
 
+.about-us-block {
+    margin-bottom: 160px;
+}
+
 .footer form {
   width: 450px;
   margin: auto;
@@ -250,12 +262,15 @@
 }
 
 #footerInput {
+  cursor: auto;
   margin: auto;
   padding-left: 30px;
   background-color: #51555d;
   border-width: 0px;
   width: 70%;
   height: 100%;
+  color: white;
+  font-size: 15px;
 }
 
 #footerInput::placeholder {
@@ -302,4 +317,81 @@
 
 #bottomLinks a {
   padding-left: 40px;
+}
+
+/*Popup*/
+
+.pop-up-form {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.form-popup {
+  width: 300px;
+  height: 285px;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .submitButton {
+  background-color: #38c6d9;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.x-button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 10%;
+}
+
+.btn-cancel {
+    cursor: pointer;
+}
+
+.back-button {
+    display: flex;
+}
+
+.pop-up-title {
+    width: 90%;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/what_you_get.css">
     <link rel="stylesheet" href="./css/media.css">
+    <script src="./js/index.js"></script>
     <title>HTML Document</title>
 </head>
     <body>
@@ -46,13 +47,13 @@
                         People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars ot cosmetics. A company is only as good as the people it keeps.
                     </p>
                     <div class="main-section__buttons">
-                        <button class="lets-rock-button">LETS ROCK</button>
-                        <button class="subscribe-button">SUBSCRIBE</button>
+                        <button class="lets-rock-button" onclick="openForm()">LETS ROCK</button>
+                        <button class="subscribe-button" onclick="openForm()">SUBSCRIBE</button>
                     </div>
                 </div>
             </article>
         </div>
-
+        
         <div class="about-us-block">
             <h1 class="main-title">WHO WE ARE</h1>
             <h2 class="subtitle">The first requirement for an user experience is to meet the exact needs of the customer</h2>
@@ -92,7 +93,7 @@
             <div class="main-section__text">
                 <p class="text-header">WHAT YOU GET</p>
                 <p class="text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a lectus ut leo imperdiet sollicitudin. Suspendisse sed scelerisque orci, ac tempor sapien. Curabitur posuere tempor orci id fringilla. Cras fringilla nisl tempus, sodales odio non, faucibus tortor. Vestibulum at nunc auctor, finibus diam a, suscipit enim. Praesent condimentum cursus mi vitae rutrum. Suspendisse non lacus vehicula, eleifend nunc quis, pellentesque elit.</p>
-                <button class="get-it-now-button">GET IT NOW</button>
+                <button class="get-it-now-button" onclick="openForm()">GET IT NOW</button>
             </div>
         </div>
 
@@ -100,10 +101,10 @@
             <h1 class="main-title">WHO WE ARE</h1>
             <h2 class="subtitle">The first requirement for an user experience is to meet the exact needs of the customer</h2>
             <div class="info-buttons">
-                <button class="info-button" id="all">ALL</button>
-                <button class="info-button">CREATIVE</button>
-                <button class="info-button">BUSINESS</button>
-                <button class="info-button">BRANDING</button>
+                <button class="info-button" onclick="openForm()">ALL</button>
+                <button class="info-button" onclick="openForm()">CREATIVE</button>
+                <button class="info-button" onclick="openForm()">BUSINESS</button>
+                <button class="info-button" onclick="openForm()">BRANDING</button>
             </div>
             <div class="info-images">
                 <img src="./assets/images/romanImages/Layer%204.png">
@@ -152,6 +153,7 @@
             </div>
         </div>
 
+        <footer>
         <div class="footer">
             <h1 id="footerTitle">JOIN US & FREE SUBSCRIBE</h1>
             <h2 class="subtitle">The first requirement for an user experience is to meet the exact needs of the customer</h2>
@@ -168,6 +170,23 @@
                     <a href=""><img src="./assets/images/romanImages/iconIn.png"></a>
                 </div>
             </div>
+        </div>
+        </footer>
+        
+        <div class="pop-up-form" id="myForm">
+         <div class="form-popup", id="popUp">
+          <form action="/action_page.php" class="form-container">
+           <div class = "back-button">
+           <div class="pop-up-title"><h1>Login</h1></div>
+           <div class = "x-button"><button type="button" class="btn-cancel" onclick="closeForm()">X</button></div>
+           </div>
+           <label for="email"><b>Email</b></label>
+           <input type="text" placeholder="Enter Email" name="email" required>
+           <label for="psw"><b>Password</b></label>
+           <input type="password" placeholder="Enter Password" name="psw" required>
+           <button type="submit" class="submitButton">Login</button>
+          </form>
+         </div>
         </div>
     </body>
 </html>
