@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/what_you_get.css">
     <link rel="stylesheet" href="./css/media.css">
-    <script src="./js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>HTML Document</title>
 </head>
     <body>
@@ -175,19 +175,20 @@
         
         <div class="pop-up-form" id="myForm">
          <div class="form-popup", id="popUp">
-          <form action="/action_page.php" class="form-container">
+          <div class="form-container">
            <div class = "back-button">
            <div class="pop-up-title"><h1>Login</h1></div>
            <div class = "x-button"><button type="button" class="btn-cancel" onclick="closeForm()">X</button></div>
            </div>
            <label for="email"><b>Email</b></label>
-           <input type="text" placeholder="Enter Email" name="email" required>
-           <label for="psw"><b>Password</b></label>
-           <input type="password" placeholder="Enter Password" name="psw" required>
-           <button type="submit" class="submitButton">Login</button>
-          </form>
+              <input type="text" placeholder="Enter Email" name="email" required id="nameText">
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required id="PasswordText">
+              <button class="submitButton">Login</button>
+          </div>
          </div>
         </div>
+        <script src="./js/index.js"></script>
     </body>
 </html>
 
