@@ -21,3 +21,21 @@ $('.submitButton').click(function () {
     })
     document.getElementById("myForm").style.display = "none";
 });
+
+function hamburger() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+function openNav() {
+    document.getElementById("sidebar").style.width = "250px";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+}
