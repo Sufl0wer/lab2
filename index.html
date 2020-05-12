@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=700, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/what_you_get.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>HTML Document</title>
+</head>
+    <body>
+        <div class="welcome-block">
+            <header class="header">
+                <div class="hamburger">
+                    <div id="sidebar" class="sidebar">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <button class="openbtn" onclick="openNav()">&#9776;</button>
+                </div>
+                <div class="header_logo">
+                    <img src="./assets/images/header/KiBs.png" alt="logo">
+                </div>
+                <ul class="social-networks">
+                    <li class="social-networks__item">
+                        <a class="social-networks__link" href="#">
+                            <img src="./assets/images/header/Facebook.png" alt="social network">
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a class="social-networks__link" href="#">
+                            <img src="./assets/images/header/Twitter.png" alt="social network">
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a class="social-networks__link" href="mailto:mail@mail.com">
+                            <img src="./assets/images/header/Linkedin.png" alt="social network">
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <article class="main-section">
+                <div class="wrapper">
+                    <h1 class="main-section__title">
+                        WONDERFUL
+                    </h1>
+                    <h2 class="main-section__subtitle">
+                        DESIGN IN EVERY PIXELS
+                    </h2>
+                    <p class="main-section__text">
+                        People are definitely a company's greatest asset. It doesn't make any difference whether the product is cars ot cosmetics. A company is only as good as the people it keeps.
+                    </p>
+                    <div class="main-section__buttons">
+                        <button class="lets-rock-button" onclick="openForm()">LETS ROCK</button>
+                        <button class="subscribe-button" onclick="openForm()">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="about-us-block">
+            <h1 class="main-title">WHO WE ARE</h1>
+            <h2 class="subtitle">The first requirement for an user experience is to meet the exact needs of the customer</h2>
+            <div class="info-blocks">
+                <div class="info-block">
+                    <div class="icon">
+                        <img class="info-img" src="assets/images/romanImages/icon1.png">
+                    </div>
+                    <h3 class="info-title">Online Support</h3>
+                    <div class="subtitle">Class aptent taciti sociosutn tora torquent const reptos himenaeos</div>
+                </div>
+                <div class="info-block">
+                    <div class="icon">
+                        <img class="info-img">
+                    </div>
+                    <h3 class="info-title">User Interface</h3>
+                    <div class="subtitle" src="assets/images/romanImages/icon2.png">Class aptent taciti sociosutn tora torquent const reptos himenaeos</div>
+                </div>
+                <div class="info-block">
+                    <div class="icon">
+                        <img class="info-img" src="assets/images/romanImages/icon3.png">
+                    </div>
+                    <h3 class="info-title">Easy to setup</h3>
+                    <div class="subtitle">Class aptent taciti sociosutn tora torquent const reptos himenaeos</div>
+                </div>
+                <div class="info-block">
+                    <div class="icon">
+                        <img class="info-img" src="assets/images/romanImages/icon4.png">
+                    </div>
+                    <h3 class="info-title">Get New Updates</h3>
+                    <div class="subtitle">Class aptent taciti sociosutn tora torquent const reptos himenaeos</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="what-you-get">
+            <div class="main-section__text">
+                <h2 class="text-header">WHAT YOU GET</h2>
+                <p class="text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a lectus ut leo imperdiet sollicitudin. Suspendisse sed scelerisque orci, ac tempor sapien. Curabitur posuere tempor orci id fringilla. Cras fringilla nisl tempus, sodales odio non, faucibus tortor. Vestibulum at nunc auctor, finibus diam a, suscipit enim. Praesent condimentum cursus mi vitae rutrum. Suspendisse non lacus vehicula, eleifend nunc quis, pellentesque elit.</p>
+                <button class="get-it-now-button" onclick="openForm()">GET IT NOW</button>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <h1 class="main-title">WHO WE ARE</h1>
+            <h2 class="subtitle">The first requirement for an user experience is to meet the exact needs of the customer</h2>
+            <div class="info-buttons">
+                <button class="info-button" onclick="openForm()">ALL</button>
+                <button class="info-button" onclick="openForm()">CREATIVE</button>
+                <button class="info-button" onclick="openForm()">BUSINESS</button>
+                <button class="info-button" onclick="openForm()">BRANDING</button>
+            </div>
+            <div class="info-images">
+                <img src="./assets/images/romanImages/Layer%204.png">
+                <img src="./assets/images/romanImages/Layer%206.png">
+                <img src="./assets/images/romanImages/Layer%201.png">
+                <img src="./assets/images/romanImages/Layer%203.png">
+                <img src="./assets/images/romanImages/Layer%202.png">
+                <img src="./assets/images/romanImages/Layer%205.png">
+            </div>
+        </div>
+
+        <div class="ourt-team-block">
+            <h1 class="main-title">OUR TEAM</h1>
+            <h2 class="subtitle">The first requirement for an user experience is to meet the exact needs of the customer</h2>
+            <div class="team-photos">
+                <div class="person">
+                    <img src="./assets/images/romanImages/Layer%209.png">
+                    <div class="person-name">Reena Scot</div>
+                    <div class="person-info">Phasellus vehicula justo eget diam posuere sollicit</div>
+                    <div class="links">
+                        <div class="linkImage"><a href=""><img src="./assets/images/romanImages/iconFGray.png"></a></div>
+                        <div class="linkImage"><a href=""><img src="./assets/images/romanImages/iconTGray.png"></a></div>
+                        <div class="linkImage"><a href=""><img src="./assets/images/romanImages/iconInGray.png"></a></div>
+                    </div>
+                </div>
+                <div class="person">
+                    <img src="./assets/images/romanImages/Layer%208.png">
+                    <div class="person-name">David Martin</div>
+                    <div class="person-info">Phasellus vehicula justo eget diam posuere sollicit</div>
+                    <div class="links">
+                        <div class="linkImage"><a href=""><img src="./assets/images/romanImages/iconFGray.png"></a></div>
+                        <div class="linkImage"><a href=""><img src="./assets/images/romanImages/iconTGray.png"></a></div>
+                        <div class="linkImage"><a href=""><img src="./assets/images/romanImages/iconInGray.png"></a></div>
+                    </div>
+                </div>
+                <div class="person">
+                    <img src="./assets/images/romanImages/Layer%2010.png">
+                    <div class="person-name">Jhon White</div>
+                    <div class="person-info">Phasellus vehicula justo eget diam posuere sollicit</div>
+                    <div class="links">
+                        <div class="linkImage"><a href=""><img src="./assets/images/romanImages/iconFGray.png"></a></div>
+                        <div class="linkImage"><a href=""><img src="./assets/images/romanImages/iconTGray.png"></a></div>
+                        <div class="linkImage"><a href=""><img src="./assets/images/romanImages/iconInGray.png"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+        <div class="footer">
+            <h1 id="footerTitle">JOIN US & FREE SUBSCRIBE</h1>
+            <h2 class="subtitle">The first requirement for an user experience is to meet the exact needs of the customer</h2>
+            <form action="">
+                <input type="text" placeholder="Your Mail" id="footerInput">
+                <input type="submit" value="SEND" id="submitButton">
+            </form>
+            <div id="bottomArea">
+                <img id="bottomAreaLogoImage" src="./assets/images/romanImages/KiBs1.png">
+                <div id="bottomText">@2017<div id="blueBottomText"> ThemeXpert</div>All Right Reserved</div>
+                <div id="bottomLinks">
+                    <a href=""><img src="./assets/images/romanImages/iconF.png"></a>
+                    <a href=""><img src="./assets/images/romanImages/iconT.png"></a>
+                    <a href=""><img src="./assets/images/romanImages/iconIn.png"></a>
+                </div>
+            </div>
+        </div>
+        </footer>
+        
+        <div class="pop-up-form" id="myForm">
+         <div class="form-popup", id="popUp">
+          <div class="form-container">
+           <div class = "back-button">
+           <div class="pop-up-title"><h1>Login</h1></div>
+           <div class = "x-button"><button type="button" class="btn-cancel" onclick="closeForm()">X</button></div>
+           </div>
+           <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required id="nameText">
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required id="PasswordText">
+              <button class="submitButton">Login</button>
+          </div>
+         </div>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
+
